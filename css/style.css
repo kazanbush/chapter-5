@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.body {
+    min-width: 100%;
+    background-color: rgb(101, 70, 70);
+}
+
+.body__title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    background-color: rgb(160, 101, 101);
+    width: 850px;
+    margin: 0 auto;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(242, 208, 208);
+}
+
+
+.body__text {
+    width: 850px;
+    margin: 0 auto;
+    background-color: rgb(214, 163, 163);
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+}
